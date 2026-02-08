@@ -1,0 +1,38 @@
+{
+  "name": "bihaeng",
+  "version": "0.0.0",
+  "description": "Flight tracker application leveraging Amadeus's travel APIs",
+  "keywords": [
+    "typescript",
+    "api",
+    "travel",
+    "flight-tracker"
+  ],
+  "homepage": "https://github.com/kaiharuto/bihaeng#readme",
+  "bugs": {
+    "url": "https://github.com/kaiharuto/bihaeng/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiharuto/bihaeng.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Kai Haruto",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.2.2",
+    "@types/pg": "^8.16.0",
+    "dotenv": "^17.2.4",
+    "node-cron": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.11",
+    "pg": "^8.18.0"
+  }
+}
